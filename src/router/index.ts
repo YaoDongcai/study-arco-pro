@@ -7,6 +7,11 @@ const routes: Array<RouteRecordRaw> = [
     redirect: 'test',
   },
   {
+    path: '/cti',
+    name: 'cti',
+    component: () => import('@/views/view3D/index.vue'),
+  },
+  {
     path: '/login',
     name: 'login',
     component: () => import('@/views/login/index.vue'),

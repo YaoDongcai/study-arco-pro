@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>test open cop</title>
+	<head>
+	<body>
+		<button  onclick="open()">打开cop</button>
+		<a href="MeyerCOP://name=测试,id=123456,birth=1998-09-01,sex=M" >打开cop</a>
+	<body>
+
+	<script type="text/javascript">
+		function open() {
+			console.log('---我运行了')
+			window.open("MeyerCOP:// name=encoder(测试),id=123456,birth=1998-09-01,sex=M")
+		}
+	</script>
+<html>
